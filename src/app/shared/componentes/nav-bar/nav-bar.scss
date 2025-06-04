@@ -1,0 +1,36 @@
+.btn-magenta{
+    color: #FFF;
+    background-color: #ED4B9A;
+}
+
+
+.btn-magenta:hover{
+    color: #FFF;
+    background-color: #b92a6f;
+}
+.magenta{
+    color: #ED4B9A;
+}
+.navbar
+{
+    text-align: center !important;
+}
+.textHov {
+  position: relative;
+  transition: all 0.3s ease; 
+}
+
+.textHov:hover{
+     color: #ED4B9A;
+     z-index: 20;
+     transform: scale(1.1);
+     text-shadow: 0 2px 8px rgba(237, 75, 154, 0.4); 
+}
+
+@media (max-width: 575px) {
+  .textHov:hover {
+    z-index: auto;
+    transform: none;
+    text-shadow: none;
+  }
+}

@@ -1,0 +1,75 @@
+.btn-magenta{
+    color: #FFF;
+    background-color: #ED4B9A;
+}
+.bg-magenta{
+   color: #FFF;
+    background-color: #EC4899;
+}
+.bg-pink {
+  background-color: #EC4899; 
+  width: 40px; 
+  height: 40px; 
+  line-height: 40px;
+}
+.magenta-text{
+    color: #EC4899;
+}
+
+.gray{
+   color : #717171
+}
+.light-magenta
+{
+    background-color: #FFF2FF;
+}
+.btn-magenta:hover{
+    color: #FFF;
+    background-color: #b92a6f;
+}
+
+.gradientpink {
+    background: linear-gradient(180deg, #FFFFFF 10%, #FFEEFF 100%);
+}
+
+.imagaframe {
+  width: 20.69vw;
+  height: auto;     
+  max-height: 54.54vh;
+}
+.layercard{
+    width: 18rem; 
+    height: 250px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+     height: 100%;
+}
+
+.bigLetter {
+  font-size: 30px; // Extra small <576px
+
+  @media (min-width: 576px) { // Small
+    font-size: 30px;
+  }
+
+  @media (min-width: 768px) { // Medium
+    font-size: 45px;
+  }
+
+  @media (min-width: 992px) { // Large
+    font-size: 50px;
+  }
+
+  @media (min-width: 1200px) { // Extra Large
+    font-size: 60px;
+  }
+
+  @media (min-width: 1650px) { // XXL
+    font-size: 65px;
+  }
+
+  @media (min-width: 1850px) { // XXL
+    font-size: 70px;
+  }
+}
