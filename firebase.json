@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "public": "dist\\landing-partybox\\browser\\",
+    "public": "dist\\landing-partybox\\browser\\inicio\\",
     "ignore": [
       "firebase.json",
       "**/.*",

@@ -2,3 +2,23 @@
    text-decoration: none;
    color : #717171;
 }
+
+@media (max-width: 575px) {
+  .col-sm-4{
+    width: 29%;
+  }
+}
+
+@media (max-width: 575px) {
+  .offset-sm-5{
+    width: 32%;
+    
+  }
+}
+
+@media (max-width: 575px) {
+  .offset-sm-5{
+    width: 32%;
+    
+  }
+}
